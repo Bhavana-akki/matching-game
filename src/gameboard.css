@@ -1,0 +1,79 @@
+.app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .game-board {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    background-image: url("https://i.ytimg.com/vi/cxapDckC08g/maxresdefault.jpg");
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .card {
+    background-color: pink;
+    color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s;
+    height: 70px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .cards {
+    background-color: lightblue;
+    color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s;
+    height: 70px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  
+  .card.selected {
+    background-color: white;
+  }
+  
+  .card.matched {
+    background-color: #28a745;
+  }
+  .card img {
+    max-width: 80%;
+    height: auto;
+    max-height: 100px;
+  }
+  .cards.selected {
+    background-color: white;
+  }
+  
+  .cards.matched {
+    background-color: #28a745;
+  }
+  .cards img {
+    max-width: 70%;
+    height: auto;
+    max-height: 80px;
+  }

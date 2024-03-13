@@ -1,0 +1,20 @@
+{
+    "items": [
+      { "id": 1, "name": "Apple" },
+      { "id": 2, "name": "Ball" },
+      { "id": 3, "name": "Cat" },
+      { "id": 4, "name": "Dog" },
+      { "id": 5, "name": "Elephant" },
+      { "id": 6, "name": "Fish" }
+    ],
+    "images" :[
+      { "id": 1, "image_url": "https://static.vecteezy.com/system/resources/previews/003/225/120/original/apple-cartoon-illustration-style-apple-for-design-resources-free-vector.jpg" },
+      { "id": 2, "image_url": "http://clipartix.com/wp-content/uploads/2016/05/Banana-clipart-black-and-white-banana-clip-art-black-and-clipartcow.png" },
+      { "id": 3, "image_url": "http://clipart-library.com/img1/866122.png" },
+      { "id": 4, "image_url": "http://clipart-library.com/images_k/dog-clipart-transparent/dog-clipart-transparent-17.png" },
+      { "id": 5, "image_url": "http://clipartmag.com/images/elephant-clipart-baby-36.png" },
+      { "id": 6, "image_url": "https://clipartcraft.com/images/fish-clipart-transparent-1.png" }
+    ]
+  }
+  
+  
